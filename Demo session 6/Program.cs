@@ -26,6 +26,46 @@
             ////Console.WriteLine($"Area Of Circle = {circle.CalcArea()} "); // 314.0
             ////Console.WriteLine($"Perimeter Of Circle = {circle.Perimeter} "); // 62.80  
             #endregion
+            #region Static 
+
+            #region Static Methods
+            //Utility U01 = new Utility(1, 2);
+            ////Console.WriteLine($"Convert From Meter To Cm {U01.MeterToCm(1.2)}"); // 120
+            //Console.WriteLine($"Circle Area =  {U01.CalculateCircleArea(10)}"); // 314
+            //U01.X = 10;
+            //U01.Y = 20;
+            //Console.WriteLine("after Changing X , Y ");
+            ////Console.WriteLine($"Convert From Meter To Cm {U01.MeterToCm(1.2)}"); // 120	
+            //         // The Result of Calling Method [MeterToCm] Does not Change By Changing Object State [X , Y]
+            //Console.WriteLine($"Circle Area =  {U01.CalculateCircleArea(10)}"); // 314
+            //// The Result of Calling Method [CalculateCircleArea] Does not Change By Changing Object State [X , Y]
+
+            //Utility U02 = new Utility(100, 200);
+            //Console.WriteLine("Different Object");
+            ////Console.WriteLine($"Convert From Meter To Cm {U01.MeterToCm(1.2)}"); // 120
+            //// The Result of Calling Method [MeterToCm] will not differ when you call it from different objects
+            //Console.WriteLine($"Circle Area =  {U01.CalculateCircleArea(10)}"); // 314
+            //// The Result of Calling Method [CalculateCircleArea] will not differ when you call it from different objects
+
+
+            //Console.WriteLine($"Convert From Meter To Cm {Utility.MeterToCm(1.2)}"); // 120
+            //Console.WriteLine($"Circle Area =  {Utility.CalculateCircleArea(10)}"); // 314
+
+            #endregion
+
+            #region Static Fields and Property  
+
+            //Utility U01 = new Utility(100, 200);
+            ////U01.pi = 20; // Invalid  [Attribute]
+            //U01.PI = 20; // valid  [Property]
+
+            //Console.WriteLine(U01.PI); // 20
+            //   // The Value of Property [PI] Does not Affect By Object State [X , Y]
+
+            //Console.WriteLine(Utility.PI); // 20
+
+            #endregion
+            #endregion
         }
     }
 }
