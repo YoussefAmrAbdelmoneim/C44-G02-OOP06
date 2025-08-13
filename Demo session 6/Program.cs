@@ -87,6 +87,15 @@
             //Console.WriteLine(parentRef.Salary); // 13_000
             //parentRef.MyFun(); // I Am Child 
             #endregion
+            #region Partial 
+
+            //Employee employee = new Employee();
+            //employee.Id = 10;
+            //employee.Name = "Mona";
+            //employee.Age = 30;
+            //employee.Print(10); // Hello From Employee
+
+            #endregion
         }
     }
 }
