@@ -35,6 +35,14 @@
             //Console.WriteLine(p1);
             //Console.WriteLine(p2);
             #endregion
+            #region Q2
+            //double x = 10;
+            //double y = 5;
+            //Console.WriteLine(Maths.Add(x,y));
+            //Console.WriteLine(Maths.Subtract(x, y));
+            //Console.WriteLine(Maths.Multiply(x, y));
+            //Console.WriteLine(Maths.Divide(x, y));
+            #endregion
         }
     }
 }
