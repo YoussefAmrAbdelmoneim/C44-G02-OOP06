@@ -66,6 +66,27 @@
 
             #endregion
             #endregion
+            #region Sealed
+            //Parent parent = new Parent();
+            //parent.Salary = 10_000;
+            //Console.WriteLine(parent.Salary); // 11_000
+            //parent.MyFun(); // I am Parent
+
+            //Child child = new Child();
+            //child.Salary = 10_000;
+            //Console.WriteLine(child.Salary); // 13_000
+            //child.MyFun(); // I Am Child
+
+            //GrandChild grandChild = new GrandChild();
+            //grandChild.Salary = 10_000;
+            //Console.WriteLine(grandChild.Salary); // 16_000
+            //grandChild.MyFun(); // I am GrandChild
+
+            //Parent parentRef = new GrandChild();
+            //parentRef.Salary = 10_000;
+            //Console.WriteLine(parentRef.Salary); // 13_000
+            //parentRef.MyFun(); // I Am Child 
+            #endregion
         }
     }
 }
