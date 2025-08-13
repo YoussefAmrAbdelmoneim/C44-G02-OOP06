@@ -4,7 +4,37 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Q1
+            //Point3D P = new Point3D(10, 10, 10);
+            //Console.WriteLine(P.ToString());
+            //Console.WriteLine("Enter coordinates for p1: ");
+            //int.TryParse(Console.ReadLine(), out int x);
+            //int.TryParse(Console.ReadLine() , out int y);
+            //int.TryParse(Console.ReadLine(), out int z);
+            //Point3D p1 = new Point3D(x,y,z);
+            //Console.WriteLine("Enter coordinates for p2: ");
+            //int.TryParse(Console.ReadLine(), out int a);
+            //int.TryParse(Console.ReadLine(), out int b);
+            //int.TryParse(Console.ReadLine(), out int c);
+            //Point3D p2 = new Point3D(a,b,c);
+            //if (p1 == p2)
+            //{
+            //    Console.WriteLine("P1 = P2");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("P1 != P2");
+            //}
+            //Point3D[] arrayOfPoints = {new Point3D(1,2,3),new Point3D(4,5,6),new Point3D(7,8,9)};
+            //Array.Sort(arrayOfPoints);
+            //foreach (Point3D item in arrayOfPoints)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //p1 = (Point3D) p2.Clone();
+            //Console.WriteLine(p1);
+            //Console.WriteLine(p2);
+            #endregion
         }
     }
 }
