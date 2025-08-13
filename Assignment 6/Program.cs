@@ -43,6 +43,44 @@
             //Console.WriteLine(Maths.Multiply(x, y));
             //Console.WriteLine(Maths.Divide(x, y));
             #endregion
+            #region Q3
+            //Console.WriteLine("Please enter your type (Regular,Premium,Guest)");
+            //string? userType = Console.ReadLine()?.ToLower();
+            //User? user = default;
+            //if (userType == "regular")
+            //{
+            //    user = new RegularUser() { Name = "Regular User" };
+            //}
+            //else if (userType == "premium")
+            //{
+            //    user = new PremiumUser() { Name = "Premium User" };
+            //}
+            //else if (userType == "guest")
+            //{ 
+            //    user = new GuestUser { Name = "Guest User" };
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+            //Console.WriteLine("Please enter product details (Price and Quantity)");
+            //decimal.TryParse(Console.ReadLine(), out decimal price);
+            //int.TryParse(Console.ReadLine(), out int quantity);
+            //Discount discount = user.GetDiscount();
+            //decimal discountAmount = 0;
+            //if (discount !=null)
+            //{
+            //    discountAmount = discount.CalculateDiscount(price, quantity);
+            //    Console.WriteLine($"{discount.Name} applied.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No Discount");
+            //}
+            //decimal finalPrice = (price * quantity) - discountAmount;
+            //Console.WriteLine($"Total discount: {discountAmount:C}");
+            //Console.WriteLine($"Final price: {finalPrice:C}");        
+            # endregion
         }
     }
 }
